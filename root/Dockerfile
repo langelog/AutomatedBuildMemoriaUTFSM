@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Luis Gonzalez <langelog@me.com>
 
 RUN apt-get update
-RUN apt install -y zsh git rar unrar zip unzip
+RUN apt install -y zsh git zip unzip
 RUN apt install -y build-essential cmake libv4l-dev pkg-config libgtk2.0-dev \
                           libtiff5-dev libjasper-dev libavformat-dev libswscale-dev \
                           libavcodec-dev libjpeg8-dev python-dev python-numpy \
